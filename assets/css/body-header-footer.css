@@ -14,14 +14,17 @@ h1,h2,h3{
 body{
     background-image: url(../images/concrete_seamless.png);
     line-height: 34px;
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* justify-content: space-between; */
+    /* align-items: center;s */
 }
 
 .header-content-area{
     width: 960px;
     display: flex;
     justify-content: space-between;
-    position: absolute;
-    position: sticky;
+    /* position: fixed; */
 }
 /* HEADER */
 .header-container{
@@ -31,6 +34,7 @@ body{
     height: 90px;
     background-color: #ffffff;
     border-bottom: 2px solid #cccccc;
+    /* position: fixed; */
     /* margin-bottom: 30px; */
 }
 
